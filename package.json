@@ -16,7 +16,7 @@
     "test:ci": "nyc npm run test:once && nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
-    "url": "https://github.com/AIRTucha/logrange"
+    "url": "https://github.com/AIRTucha/logoped"
   },
   "keywords": [
     "typescript",
