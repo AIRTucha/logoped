@@ -24,7 +24,7 @@ const composeReportForReturn = (stringify: Stringify) => (promiseOrValue: any) =
   }
 }
 
-export default function logrange(logger: Logger, argPromise: boolean = false, stringify = stringifyObject) {
+export default function logoped(logger: Logger, argPromise: boolean = false, stringify = stringifyObject) {
   const handlerPromiseArgs = function (target: any, propertyKey: string, descriptor: PropertyDescriptor) {
     const method = descriptor.value
     const prefix = `${target.constructor.name}'s method ${propertyKey}`
